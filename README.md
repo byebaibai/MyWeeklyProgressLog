@@ -1,9 +1,9 @@
 # MyWeeklyProgressLog
 
-<details>
+<!-- <details>
   <summary>2021-07-06 - 2021-07-12</summary>
   
-</details>
+</details> -->
 
 ## Studying Progress
 * Reading "Analyzing Neural Time Series Data"【Chapter 1 - Chapter 4]
@@ -18,4 +18,13 @@
 
 
 ## Issues Encountered
+- [ ] What does the phase `foward model` means ?
+- [ ] Are ERP activities specific to one frequency band ?
+- [x] What does the sentence `Exploratory analyses might lack the sensitivity to detect subtle features of the results` means ?
+- [ ] What does the phase `sweat potential` means ?
+
 ## Next Plan
+
+* Read "Analyzing Neural Time Series Data"【Chapter 5 - Chapter 7]
+* Finish C# Studying Resources in Microsoft learning website.
+       
