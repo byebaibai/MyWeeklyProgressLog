@@ -15,7 +15,7 @@
 
 
   ## Issues Encountered
-  - [] What does the phase `foward model` means ?
+  - [ ] What does the phase `foward model` means ?
 
     * introduced in future chapter.
 
