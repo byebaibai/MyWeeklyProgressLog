@@ -1,4 +1,4 @@
-# Past Epic
+> Past Epic
 <details>
   <summary>2021-07-06 - 2021-07-12</summary>
 
@@ -30,7 +30,9 @@
         
 </details>
 
-# This Epic
+<details>
+  <summary>2021-07-13 - 2021-07-19</summary>
+
   ## Studying Progress
   * Reading "Analyzing Neural Time Series Data"【Chapter 5 - Chapter 7]
 
@@ -47,6 +49,29 @@
 
   ## Next Epic Plan
 
-  - [ ] Read "Analyzing Neural Time Series Data"【Chapter 8 - Chapter 10].
-  - [ ] Follow Microsoft resource and build a mobile app.
-  - [ ] Try to read one thesis from lab and log questions.
+  - [x] Read "Analyzing Neural Time Series Data"【Chapter 8 - Chapter 10].
+  - [x] Follow Microsoft resource and build a mobile app.
+  - [ ] Try to read one thesis from lab and log questions. `In Progress`
+
+</details>
+
+> This Epic
+
+  ## Studying Progress
+  * Reading "Analyzing Neural Time Series Data"【Chapter 8 - Chapter 10]
+
+      * Notes (part, [Chapter8-link](./notes/chapter8.pdf), [Chapter9-link](./notes/chapter9.pdf)）
+      * `Matlab` Programming Exercises Chapter 9 & 10
+
+  * Studying C# With Microsoft
+      
+      * [Build mobile apps with Xamarin.Forms](https://docs.microsoft.com/en-us/learn/paths/build-mobile-apps-with-xamarin-forms/)
+
+
+  ## Issues Encountered
+  *None*
+
+  ## Next Epic Plan
+
+  - [ ] Read "Analyzing Neural Time Series Data"【Chapter 11 - Chapter 13].
+  - [ ] Try To Implement Basic `topoplot` Function From EEGLAB In C#.
