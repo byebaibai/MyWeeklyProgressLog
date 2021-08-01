@@ -45,7 +45,7 @@
 
 
   ## Issues Encountered
-  - [ ] What does the word `taper` means ?
+  - [x] What does the word `taper` means ?
 
   ## Next Epic Plan
 
@@ -55,7 +55,8 @@
 
 </details>
 
-> This Epic
+<details>
+  <summary>2021-07-20 - 2021-07-26</summary>
 
   ## Studying Progress
   * Reading "Analyzing Neural Time Series Data"【Chapter 8 - Chapter 10]
@@ -73,5 +74,33 @@
 
   ## Next Epic Plan
 
-  - [ ] Read "Analyzing Neural Time Series Data"【Chapter 11 - Chapter 13].
-  - [ ] Try To Implement Basic `topoplot` Function From EEGLAB In C#.
+  - [ ] Read "Analyzing Neural Time Series Data" [Chapter 11 - Chapter 13]. [In Progress]
+  - [x] Try To Implement Basic `topoplot` Function From EEGLAB In C#.
+</details>
+
+> This Epic
+  
+  **2021-07-27 - 2021-08-01**
+  ## Studying Progress
+  * Reading "Analyzing Neural Time Series Data"【Chapter 11 - Chapter 12]
+
+      * Notes (part, [Chapter12-link](./notes/chapter12.pdf)）
+      * `Matlab` Programming Exercises Chapter 11 & 12
+
+  * Try to Implemented topoplot in C#
+  
+      <img href="topoplot_csharp_sample" src="images/topoplot_csharp_sample.png" style="width:70%; "></img>
+      * 2D interpolation method from alglib library
+      * values are scaled into 0 to 1, and are sent into jet color convertor to generate the value-related color(from blue to red). 
+      
+
+
+  ## Issues Encountered
+  Struggling with `Signal & System` Background...
+
+  ## Next Epic Plan
+  * Focus on quality, not quantity.
+  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 13]. 
+    - [ ] Understand Signal Processing Knowledge Behind.
+  - [ ] Read "Analyzing Neural Time Series Data" [Chapter 14].
+  - [ ] Read EEG-related Open Source Code.
