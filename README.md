@@ -74,13 +74,13 @@
 
   ## Next Epic Plan
 
-  - [ ] Read "Analyzing Neural Time Series Data" [Chapter 11 - Chapter 13]. [In Progress]
+  - [x] Read "Analyzing Neural Time Series Data" [Chapter 11 - Chapter 13]. 
   - [x] Try To Implement Basic `topoplot` Function From EEGLAB In C#.
 </details>
 
-> This Epic
-  
-  **2021-07-27 - 2021-08-01**
+<details>
+  <summary>2021-07-27 - 2021-08-01</summary>
+
   ## Studying Progress
   * Reading "Analyzing Neural Time Series Data"【Chapter 11 - Chapter 12]
 
@@ -93,14 +93,42 @@
       * 2D interpolation method from alglib library
       * values are scaled into 0 to 1, and are sent into jet color convertor to generate the value-related color(from blue to red). 
       
-
-
   ## Issues Encountered
   Struggling with `Signal & System` Background...
 
   ## Next Epic Plan
   * Focus on quality, not quantity.
-  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 13]. 
-    - [ ] Understand Signal Processing Knowledge Behind.
+  - [x] Finish "Analyzing Neural Time Series Data" [Chapter 13]. 
+    - [x] Understand Signal Processing Knowledge Behind.
+  - [x] Read "Analyzing Neural Time Series Data" [Chapter 14].
+  - [ ] Read EEG-related Open Source Code.
+
+</details>
+
+> This Epic
+  
+  **2021-08-02 - 2021-08-08**
+  ## Studying Progress
+  * Reading "Analyzing Neural Time Series Data" [Chapter 13 - Chapter 14]
+
+      * Notes (part, [Chapter13-link](./notes/chapter13.pdf)）
+      * `Matlab` Programming Exercises Chapter 13
+
+  * Be Familiar With BIDS
+   
+      * [BIDS Tutorial Series: Introductory Walkthrough](https://reproducibility.stanford.edu/bids-tutorial-series-part-1a/)
+      * [BIDS Tutorial Series: Automate the Introductory Walkthrough](https://reproducibility.stanford.edu/bids-tutorial-series-part-1b/)
+      
+  * Getting Start Lab Streaming Layer [[link]](https://github.com/sccn/liblsl)
+
+
+  
+      
+  ## Issues Encountered
+  Struggling with `Signal & System` Background...
+
+  ## Next Epic Plan
+  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 15 & 16]. 
+  - [ ] Revise Chapter 13 & 14.
   - [ ] Read "Analyzing Neural Time Series Data" [Chapter 14].
   - [ ] Read EEG-related Open Source Code.
