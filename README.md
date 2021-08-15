@@ -105,30 +105,51 @@
 
 </details>
 
-> This Epic
-  
-  **2021-08-02 - 2021-08-08**
+<details>
+  <summary>2021-08-02 - 2021-08-08</summary>
+
   ## Studying Progress
+  
   * Reading "Analyzing Neural Time Series Data" [Chapter 13 - Chapter 14]
 
       * Notes (part, [Chapter13-link](./notes/chapter13.pdf)）
       * `Matlab` Programming Exercises Chapter 13
 
   * Be Familiar With BIDS
-   
+    
       * [BIDS Tutorial Series: Introductory Walkthrough](https://reproducibility.stanford.edu/bids-tutorial-series-part-1a/)
       * [BIDS Tutorial Series: Automate the Introductory Walkthrough](https://reproducibility.stanford.edu/bids-tutorial-series-part-1b/)
-      
-  * Getting Start Lab Streaming Layer [[link]](https://github.com/sccn/liblsl)
+        
+    * Getting Start Lab Streaming Layer [[link]](https://github.com/sccn/liblsl)
 
-
-  
-      
   ## Issues Encountered
   Struggling with `Signal & System` Background...
 
   ## Next Epic Plan
-  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 15 & 16]. 
-  - [ ] Revise Chapter 13 & 14.
-  - [ ] Read "Analyzing Neural Time Series Data" [Chapter 14].
+  - [x] Finish "Analyzing Neural Time Series Data" [Chapter 15 & 16]. 
+  - [x] Revise Chapter 13 & 14.
+  - [x] Read "Analyzing Neural Time Series Data" [Chapter 14].
   - [ ] Read EEG-related Open Source Code.
+
+</details>
+
+> This Epic
+  
+  **2021-08-09 - 2021-08-15**
+  ## Studying Progress
+  * Revise "Analyzing Neural Time Series Data" [Chapter 13 & 14].
+    * `Matlab` Programming Exercises Chapter 14.
+  * Reading "Analyzing Neural Time Series Data" [Chapter 15 - Chapter 18]
+    * Finish Chapter 15-17, Chapter 18 is in progress.
+    * `Matlab` Programming Exercises Chapter 15. [99% consistent with the solution]
+  * Continue Be Familiar With Lab Streaming Layer [[link]](https://github.com/sccn/liblsl)
+
+  ## Issues Encountered
+  Struggling with `Signal & System` Background...
+
+  Struggling with Lab in ANTSD
+
+  ## Next Epic Plan
+  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 18 & 19, & Lab From Chapter 16]. 
+  - [ ] Learn the Course Video From Mike.
+  - [ ] Read Paper `Deep learning-based electroencephalography analysis: a systematic review`
