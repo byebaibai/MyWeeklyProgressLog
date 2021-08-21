@@ -1,0 +1,17 @@
+
+OUTPUT  of drivetap.c
+
+fprintf(inf, "%d %g %g %g %g %g %g %g\n", i,frq1, 
+ 		spec[i],dbspec, naive_spec[i], dtemp[i], 
+ 		dof[i], Fvalues[i]); 
+
+
+
+ i, integer number of frequency
+frq1, 	ith frequency in Hz	
+spec[i],  ith MTM Spectrum value
+dbspec, MTM spectrum in Decibels (dB)	
+naive_spec[i], Simple spectrum value  (dB)
+dtemp[i], Smoothed Simple spectrum value indB	
+dof[i],  i-th degree of freedom
+Fvalues[i], i-th F-test value

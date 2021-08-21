@@ -1,10 +1,20 @@
 %{
 
-Select two frequencies, one relatively low and one relatively high (e.g., 8 Hz and 60 Hz), 
-and compare the power time series and signal-to-noise time series in these frequency bands from the two methods 
-in a separate figure, using line plots. Comment on the differences if there are any.
+Pick one electrode and compute a time-frequency map of power using both the multitaper method and the short-time FFT. 
+Store all of the power values for all of the trials.
+
+Next, compute a time-frequency map of signal-to-noise ratio. 
+The signalto-noise ratio of power is discussed more in chapter 18, 
+but it can be estimated as the average power at each time-frequency point across trials, 
+divided by the standard deviation of power at each timefrequency point across trials.
+
+Make time-frequency plots of power and signal-to-noise ratio from the two methods. 
+Make another plot in which you subtract the signal-to-noise plots between the two methods. 
+Are there any noticeable differences between the signal-to-noise results when the multitaper method versus the short-time FFT is used?
 
 %}
+
+% Same with Solution
 
 load ../../data/sampleEEGdata.mat;
 
@@ -68,58 +78,40 @@ stFFT_SNR = stFFT_power ./ stFFT_power_std;
 multitaper_dB = 10 * log10(bsxfun(@rdivide, multitaper_power, multitaper_baseline_power));
 multitaper_SNR = multitaper_power ./ multitaper_power_std;
 
-freq2compare = [8 60];
-freq2compareidx = zeros(size(freq2compare));
-for fi=1:length(freq2compareidx)
-    [junk, freq2compareidx(fi)] = min(abs(freqs2save - freq2compare(fi)));
-end
-
 figure
 
-subplot(241)
-plot(times2save, stFFT_dB(freq2compareidx(1), :));
+subplot(221)
+contourf(times2save, freqs2save, multitaper_dB, 30, 'linecolor','none')
+colormap('jet')
+set(gca, 'YDir', 'normal', 'clim', [-3 3]);
+colorbar();
 xlabel('Time (ms)')
-ylabel('10log10 Power')
-title('shrot-time FFT, Power at 8 Hz')
+ylabel('Frequency (Hz)')
+title('Power of multitaper')
 
-subplot(242)
-plot(times2save, stFFT_dB(freq2compareidx(2), :));
+subplot(222)
+contourf(times2save, freqs2save, stFFT_dB, 30, 'linecolor','none')
+colormap('jet')
+set(gca, 'YDir', 'normal', 'clim', [-3 3]);
+colorbar();
 xlabel('Time (ms)')
-ylabel('10log10 Power')
-title('shrot-time FFT, Power at 60 Hz')
+ylabel('Frequency (Hz)')
+title('Power of FFT')
 
-subplot(243)
-plot(times2save, stFFT_SNR(freq2compareidx(1), :));
+subplot(223)
+contourf(times2save, freqs2save, multitaper_SNR, 30, 'linecolor','none')
+colormap('jet')
+set(gca, 'YDir', 'normal', 'clim', [.4 1.6]);
+colorbar();
 xlabel('Time (ms)')
-ylabel('SNR')
-title('shrot-time FFT, SNR at 8 Hz')
+ylabel('Frequency (Hz)')
+title('SNR of multitaper')
 
-subplot(244)
-plot(times2save, stFFT_SNR(freq2compareidx(2), :));
+subplot(224)
+contourf(times2save, freqs2save, stFFT_SNR, 30, 'linecolor','none')
+colormap('jet')
+set(gca, 'YDir', 'normal', 'clim', [.4 1.6]);
+colorbar();
 xlabel('Time (ms)')
-ylabel('SNR')
-title('shrot-time FFT, SNR at 60 Hz')
-
-subplot(245)
-plot(times2save, multitaper_dB(freq2compareidx(1), :));
-xlabel('Time (ms)')
-ylabel('10log10 Power')
-title('multitaper, Power at 8 Hz')
-
-subplot(246)
-plot(times2save, multitaper_dB(freq2compareidx(2), :));
-xlabel('Time (ms)')
-ylabel('10log10 Power')
-title('multitaper, Power at 60 Hz')
-
-subplot(247)
-plot(times2save, multitaper_SNR(freq2compareidx(1), :));
-xlabel('Time (ms)')
-ylabel('SNR')
-title('multitaper, SNR at 8 Hz')
-
-subplot(248)
-plot(times2save, multitaper_SNR(freq2compareidx(2), :));
-xlabel('Time (ms)')
-ylabel('SNR')
-title('multitaper, SNR at 60 Hz')
+ylabel('Frequency (Hz)')
+title('SNR of FFT')
