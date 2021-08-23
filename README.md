@@ -3,7 +3,7 @@
   <summary>2021-07-06 - 2021-07-12</summary>
 
   ## Studying Progress
-  * Reading "Analyzing Neural Time Series Data"【Chapter 1 - Chapter 4]
+  * Reading "Analyzing Neural Time Series Data"[Chapter 1 - Chapter 4]
 
       * Notes (part, [Chapter3-link](./notes/chapter3.pdf)）
       * `Matlab` Programming Exercises 4.7 
@@ -25,7 +25,7 @@
 
   ## Next Plan
 
-  - [x] Read "Analyzing Neural Time Series Data"【Chapter 5 - Chapter 7]
+  - [x] Read "Analyzing Neural Time Series Data"[Chapter 5 - Chapter 7]
   - [x] Finish C# Studying Resources in Microsoft learning website.
         
 </details>
@@ -34,7 +34,7 @@
   <summary>2021-07-13 - 2021-07-19</summary>
 
   ## Studying Progress
-  * Reading "Analyzing Neural Time Series Data"【Chapter 5 - Chapter 7]
+  * Reading "Analyzing Neural Time Series Data"[Chapter 5 - Chapter 7]
 
       * Notes (part, [Chapter5-link](./notes/chapter5.pdf), [Chapter7-link](./notes/chapter7.pdf)）
 
@@ -49,7 +49,7 @@
 
   ## Next Epic Plan
 
-  - [x] Read "Analyzing Neural Time Series Data"【Chapter 8 - Chapter 10].
+  - [x] Read "Analyzing Neural Time Series Data"[Chapter 8 - Chapter 10].
   - [x] Follow Microsoft resource and build a mobile app.
   - [ ] Try to read one thesis from lab and log questions. `In Progress`
 
@@ -59,7 +59,7 @@
   <summary>2021-07-20 - 2021-07-26</summary>
 
   ## Studying Progress
-  * Reading "Analyzing Neural Time Series Data"【Chapter 8 - Chapter 10]
+  * Reading "Analyzing Neural Time Series Data"[Chapter 8 - Chapter 10]
 
       * Notes (part, [Chapter8-link](./notes/chapter8.pdf), [Chapter9-link](./notes/chapter9.pdf)）
       * `Matlab` Programming Exercises Chapter 9 & 10
@@ -82,7 +82,7 @@
   <summary>2021-07-27 - 2021-08-01</summary>
 
   ## Studying Progress
-  * Reading "Analyzing Neural Time Series Data"【Chapter 11 - Chapter 12]
+  * Reading "Analyzing Neural Time Series Data"[Chapter 11 - Chapter 12]
 
       * Notes (part, [Chapter12-link](./notes/chapter12.pdf)）
       * `Matlab` Programming Exercises Chapter 11 & 12
@@ -133,9 +133,9 @@
 
 </details>
 
-> This Epic
-  
-  **2021-08-09 - 2021-08-15**
+<details>
+  <summary>2021-08-09 - 2021-08-15</summary>
+
   ## Studying Progress
   * Revise "Analyzing Neural Time Series Data" [Chapter 13 & 14].
     * `Matlab` Programming Exercises Chapter 14.
@@ -150,6 +150,30 @@
   Struggling with Lab in ANTSD
 
   ## Next Epic Plan
-  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 18 & 19, & Lab From Chapter 16]. 
+  - [x] Finish "Analyzing Neural Time Series Data" [Chapter 18 & Lab From Chapter 16/18]. 
   - [ ] Learn the Course Video From Mike.
-  - [ ] Read Paper `Deep learning-based electroencephalography analysis: a systematic review`
+  - [x] Read Paper `Deep learning-based electroencephalography analysis: a systematic review`
+
+</details>
+
+> This Epic
+  
+  **2021-08-16 - 2021-08-23**
+  ## Studying Progress
+  * Reading "Analyzing Neural Time Series Data" [Chapter 18]
+    * `Matlab` Programming Exercises Chapter 16 & 18. [99% consistent with the solution]
+    * Ask Mike for solution parameter setting [[forum link]](https://discuss.sincxpress.com/t/reproducing-exercises-for-analyzing-neural-time-series-data/272/23)
+  * Read review: `Deep learning-based electroencephalography analysis: a systematic review`
+  * Implement Figure 16.1 with python in chapter 16 [[jupyter-notebook]](./FigureImplementation/python/chapter16.ipynb)
+  * Fix compile and runtime coredump error in mutitaper code (both version 2004.05.27 and 2006.09.18), and run successfully in ubuntu 18.04 with gcc 7.5.0, [[code, fixed code at feature/ branches]](https://github.com/byebaibai/MTM)
+
+  ## Issues Encountered
+  Struggling with `Signal & System` Background...
+
+  Struggling with Lab in ANTSD
+
+  ## Next Epic Plan
+  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 19 & 20, & Lab From Chapter 19/20]. 
+  - [ ] Implemented all figures from chapter 16 and 19
+  - [ ] Learn the Course Video From Mike.
+  - [ ] Read Paper and Source Code From `Multiple-taper spectral analysis A stand-alone C-subroutine`
