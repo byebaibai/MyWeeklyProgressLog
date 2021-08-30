@@ -156,9 +156,9 @@
 
 </details>
 
-> This Epic
-  
-  **2021-08-16 - 2021-08-23**
+<details>
+  <summary>2021-08-16 - 2021-08-23</summary>
+
   ## Studying Progress
   * Reading "Analyzing Neural Time Series Data" [Chapter 18]
     * `Matlab` Programming Exercises Chapter 16 & 18. [99% consistent with the solution]
@@ -173,7 +173,30 @@
   Struggling with Lab in ANTSD
 
   ## Next Epic Plan
-  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 19 & 20, & Lab From Chapter 19/20]. 
-  - [ ] Implemented all figures from chapter 16 and 19
+  - [x] Finish "Analyzing Neural Time Series Data" [Chapter 19 & 20, & Lab From Chapter 19/20]. 
+  - [ ] Implemented all figures from chapter 16 and 19 `Finished chapter 16`
   - [ ] Learn the Course Video From Mike.
-  - [ ] Read Paper and Source Code From `Multiple-taper spectral analysis A stand-alone C-subroutine`
+  - [x] Read Paper and Source Code From `Multiple-taper spectral analysis A stand-alone C-subroutine`
+  - [x] Read Paper `A Review of Multitaper Spectral Analysis`
+</details>
+
+> This Epic
+  
+  **2021-08-24 - 2021-08-30**
+  ## Studying Progress
+  * Reading "Analyzing Neural Time Series Data" [Chapter 19 - 20]
+    * `Matlab` Programming Exercises Chapter 19 & 20. [99% consistent with the solution in chapter 19]
+  * Read review and source code: `Multiple-taper spectral analysis A stand-alone C-subroutine`
+  * Read review: `A Review of Multitaper Spectral Analysis` 
+  * Implement All Figures with python in chapter 16 [[jupyter-notebook]](./FigureImplementation/python/chapter16.ipynb)
+
+  ## Issues Encountered
+  Struggling with `Signal & System` Background and Mathmatics...
+
+  Struggling with Lab in ANTSD
+
+  ## Next Epic Plan
+  - [ ] Finish "Analyzing Neural Time Series Data" [Chapter 21, and Fix Bugs in Lab 20]. 
+  - [ ] Implemented all figures from chapter 20
+  - [ ] Learn the Course Video From Mike.
+  - [ ] Getting ready to start school.
