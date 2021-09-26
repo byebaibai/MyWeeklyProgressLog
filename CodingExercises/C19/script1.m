@@ -11,6 +11,8 @@ electrodes and less similar at other electrodes?
 
 %}
 
+% Same with Solution
+
 load ../../data/sampleEEGdata.mat;
 
 channels2plot = ["fz" "p8" "oz"];

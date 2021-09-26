@@ -8,7 +8,7 @@
     What areas of the scalp show the earliest and the latest peak responses to the stimulus within this window?
 %}
 
-load ../data/sampleEEGdata.mat;
+load ../../data/sampleEEGdata.mat;
 
 start_time = 100;
 end_time = 400;
